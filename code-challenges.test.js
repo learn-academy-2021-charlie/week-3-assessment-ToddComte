@@ -94,6 +94,7 @@
 //Being careful to take my time and read the problem thoroughly I was able to come up with a test and idea of what the function should look like
 //I then implemented my ideas and naturally they didn't work the test worked but my function did not.
 //I have already been working on it for quite some time now so I'm going to switch over to doing the last part which is the debugging.
+// getting the debugging assignment done I have now come back and revamped a couple of things and was able to get this to pass.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // a) Create a test with expect statements for each of the variables provided.
