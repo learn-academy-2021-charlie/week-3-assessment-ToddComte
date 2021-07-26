@@ -79,17 +79,17 @@
           }
           return(
             <>
-              <button onClick={}>
+              <button onClick={this.drawCard}>
                 Click to Draw a Card
               </button>
-              <button onClick={shuffle}>
+              <button onClick={this.shuffle}>
                 Return Cards and Shuffle Deck
               </button>
               <div style={handStyles}>
-                {this.props.hand.map((card, index) => {
+                {this.props.hand && this.props.hand.map((card, index) => {
                   return (
                     <div style={cardStyles} key={index}>
-                      {card}
+                      {Card}
                     </div>
                   )
                 })}
@@ -107,3 +107,4 @@
     </script>
   </body>
 </html>
+{/* This was a little bit of a challenge for me the first two are linked in so it was kind of like a-ha moment.The third one was definitely more difficult it took me a while of searching the Internet for answers but I was able to ask one of my teammates and he sent me over an article that he read so I read it and this was the solution I came up with. So now that there are no more errors I can clearly see draw a card click to draw a card and then return cards and shuffle deck.I feel pretty accomplished in the fact that I got this done another week finished looking forward to the next week. */}
